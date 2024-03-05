@@ -19,8 +19,8 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class DangNhap extends AppCompatActivity {
     private EditText emailEdt, passEdt;
-    private Button btnlogin;
-    private TextView txtsign;
+    private Button btnLogin;
+    private TextView txtSign;
     private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,16 +30,16 @@ public class DangNhap extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         emailEdt = findViewById(R.id.edtUserDN);
         passEdt = findViewById(R.id.edtPassDN);
-        btnlogin = findViewById(R.id.btnDangNhap);
-        txtsign = findViewById(R.id.txtSignUp);
+        btnLogin = findViewById(R.id.btnDangNhap);
+        txtSign = findViewById(R.id.txtSignUp);
 
-        btnlogin.setOnClickListener(new View.OnClickListener() {
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 login();
             }
         });
-        txtsign.setOnClickListener(new View.OnClickListener() {
+        txtSign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 signin();

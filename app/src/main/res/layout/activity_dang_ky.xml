@@ -85,32 +85,32 @@
             android:layout_height="50dp"
             android:paddingLeft="5dp"
             android:hint="Enter password"
-            android:inputType="textPassword"
-            app:layout_constraintTop_toBottomOf="@+id/textView3"
-            tools:layout_editor_absoluteX="0dp"
-            android:background="@drawable/custom_edt"/>
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="127dp"
-            android:layout_height="18dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="7dp"
-            android:text="Fullname"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edtUserDN" />
-
-        <EditText
-            android:id="@+id/edtHoten"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:paddingLeft="5dp"
-            android:hint="Enter fullname"
             android:inputType="text"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
             tools:layout_editor_absoluteX="0dp"
             android:background="@drawable/custom_edt"/>
+<!--        <TextView-->
+<!--            android:id="@+id/textView4"-->
+<!--            android:layout_width="127dp"-->
+<!--            android:layout_height="18dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_marginTop="7dp"-->
+<!--            android:text="Fullname"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/edtUserDN" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtHoten"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:paddingLeft="5dp"-->
+<!--            android:hint="Enter fullname"-->
+<!--            android:inputType="text"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView3"-->
+<!--            tools:layout_editor_absoluteX="0dp"-->
+<!--            android:background="@drawable/custom_edt"/>-->
 
         <Button
             android:id="@+id/btnDangKy"
