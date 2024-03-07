@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edtPhoneNumber"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone Number"
+            android:background="@drawable/custom_edt"
+            android:padding="12dp"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/btnGetOTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtPhoneNumber"
+            android:layout_marginStart="25dp"
+            android:text="Get OTP"
+            android:background="@drawable/custom_btn"
+            app:backgroundTint="@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edtOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Enter OTP"
+            android:background="@drawable/custom_edt"
+            android:padding="12dp"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtOTP"
+            android:text="Log In"
+            app:layout_constraintVertical_bias="0.061"
+            android:background="@drawable/custom_btn"
+            app:backgroundTint="@null"/>
+    </LinearLayout>
+
+</RelativeLayout>
