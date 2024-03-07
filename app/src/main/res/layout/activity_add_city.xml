@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCityActivity">
+
+    <EditText
+        android:id="@+id/edtCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên thành phố" />
+
+    <EditText
+        android:id="@+id/edtCityState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCityName"
+        android:layout_marginTop="16dp"
+        android:hint="Trạng thái" />
+
+    <EditText
+        android:id="@+id/edtCityCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCityState"
+        android:layout_marginTop="16dp"
+        android:hint="Quốc gia" />
+
+    <EditText
+        android:id="@+id/edtCityPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCityCountry"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:hint="Dân số" />
+
+    <Button
+        android:id="@+id/btnAddCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCityPopulation"
+        android:layout_marginTop="16dp"
+        android:text="Thêm thành phố" />
+
+</RelativeLayout>
