@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "461846980297",
-    "project_id": "lab1cuonghtph34430-e079f",
-    "storage_bucket": "lab1cuonghtph34430-e079f.appspot.com"
+    "project_number": "1007203182436",
+    "project_id": "lab1applicati",
+    "storage_bucket": "lab1applicati.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:461846980297:android:f31882d847887ae9c10f18",
+        "mobilesdk_app_id": "1:1007203182436:android:b85e560024f2951bb1fc71",
         "android_client_info": {
           "package_name": "cuonghtph34430.poly.lab1_application"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBEz-3hUP-4gmHysZfHrP4ZqJuR5kSKRMQ"
+          "current_key": "AIzaSyBgca5NDjSDIVND3J5El-5hVyDg4aXQv-g"
         }
       ],
       "services": {

@@ -1,6 +1,7 @@
 package cuonghtph34430.poly.lab1_application;
 
-import com.google.firebase.database.IgnoreExtraProperties;
+
+import com.google.firebase.firestore.IgnoreExtraProperties;
 
 import java.util.List;
 
@@ -20,6 +21,7 @@ public class CityModal {
     public String getName() {
         return name;
     }
+    
 
     public void setName(String name) {
         this.name = name;
